@@ -55,6 +55,6 @@ pred = softmax(out)
 entropy = cross_entropy(pred, Y)
 ```
 
-Training the LSTM model with BPTT and it was successful to recognize handwritten digits.
+Train the LSTM model with BPTT and it was successful to recognize handwritten digits.
 
-<img src="mnist_lstm.png" width="70%">
+<img src="mnist_lstm.png" width="65%">
