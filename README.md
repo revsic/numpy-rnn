@@ -2,8 +2,8 @@
 
 numpy implementation of Recurrent Neural Networks
 
-- [RNN_numpy](https://github.com/revsic/numpy-RNN/blob/master/RNN_numpy.ipynb) based on [iamtrask's github.io](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
-- [LSTM_numpy](https://github.com/revsic/numpy-RNN/blob/master/LSTM_numpy.ipynb) based on [wiseodd's github.io](http://wiseodd.github.io/techblog/2016/08/12/lstm-backprop/)
+- [RNN_numpy](./RNN_numpy.ipynb) based on [iamtrask's github.io](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
+- [LSTM_numpy](./LSTM_numpy.ipynb) based on [wiseodd's github.io](http://wiseodd.github.io/techblog/2016/08/12/lstm-backprop/)
 
 ## Recurrent Neural Networks
 
