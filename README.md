@@ -41,10 +41,11 @@ True : [1 0 1 0 1 0 0 0]
 Training LSTM RNN for mnist handwritten digit recognition.
 
 ```python
-mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+mnist = tf.keras.datasets.mnist
+(train_x, train_y), _ = mnist.load_data()
 ```
 
-Prepare the mnist digit database with `tensorflow.examples.tutorials.mnist.input_data`.
+Prepare the mnist digit database with `tf.keras.datasets.mnist`.
 
 ```python
 caches, states = LSTM_Cell(Xt)
@@ -57,4 +58,4 @@ entropy = cross_entropy(pred, Y)
 
 Train the LSTM model with BPTT and it was successful to recognize handwritten digits.
 
-<img src="mnist_lstm.png" width="65%">
+<img src="mnist_lstm.png" width="70%">
